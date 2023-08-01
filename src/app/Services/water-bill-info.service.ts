@@ -7,7 +7,7 @@ import { WaterBill } from '../classes/bill';
   providedIn: 'root',
 })
 export class WaterBillInfoService {
-  private baseUrl = 'https://billing-sys2-default-rtdb.firebaseio.com/';
+  private baseUrl = 'https://invoice-system-413da-default-rtdb.firebaseio.com/';
   allBills: WaterBill[] = [];
   constructor(private http: HttpClient) {}
 
